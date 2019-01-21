@@ -7,5 +7,5 @@ def line(katz_deli)
     current_line = "The line is currently:"
     current_line.push(" #{katz_deli.index(names) + 1}. #{names}") 
   end
-  current_line
+  puts current_line
 end
