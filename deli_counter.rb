@@ -8,4 +8,4 @@ def line(katz_deli)
     current_line + " #{katz_deli.index(names) + 1}. #{names}" 
   end
   return current_line
-end  
+end
