@@ -13,4 +13,10 @@ end
 def take_a_number(array, new_customer)
     array << new_customer
 end
-def now_serving()
+def now_serving(array)
+  if array.length == 0 
+    puts "There is nobody waiting to be served!"
+  else
+    
+  end
+end
