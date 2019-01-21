@@ -8,4 +8,3 @@ def line(katz_deli)
     current_line.push(" #{katz_deli.index(names) + 1}. #{names}") 
   end
   puts current_line
-end
