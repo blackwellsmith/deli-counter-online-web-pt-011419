@@ -12,7 +12,7 @@ end
 end
 def take_a_number(array, new_customer)
     array << new_customer
-    puts "Welcome, #{new_customer}. You are number #{array.length + 1} in line."
+    puts "Welcome, #{new_customer}. You are number #{array.length} in line."
 end
 def now_serving(array)
   if array.length == 0 
