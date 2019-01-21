@@ -10,3 +10,9 @@ def line(array)
   puts current_line 
 end
 end
+def take_a_number(array, new_customer)
+  if array.length == 0 
+    array << new_customer
+    
+  end
+end
